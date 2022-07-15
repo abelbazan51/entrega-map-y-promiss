@@ -1,0 +1,23 @@
+[
+  {
+    "id": "$6.80",
+    "title": "Guillermo",
+    "name": "Schulze",
+    "email": "gschulze0@latimes.com",
+    "gender": "Male"
+  },
+  {
+    "id": "$3.57",
+    "title": "Allison",
+    "name": "Alves",
+    "email": "aalves1@sun.com",
+    "gender": "Female"
+  },
+  {
+    "id": "$5.02",
+    "title": "Eveleen",
+    "name": "Macknish",
+    "email": "emacknish2@artisteer.com",
+    "gender": "Female"
+  }
+]
