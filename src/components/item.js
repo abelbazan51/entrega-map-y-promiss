@@ -11,20 +11,20 @@ const Item = ({ product }) => {
       <Card.Body>
         <Card.Title>{product.title}</Card.Title>
         <Card.Text>
-          <div>
-            {product.name}
-            {value}
-          </div>
-          <div>
+          <section>
+            <div>{product.name}</div>
             <div>
-              <div> {product.id}</div>
-              {product.email}
+              <div>
+                <div> {product.id}</div>
+                {product.email}
+              </div>
+              {product.gender}
             </div>
-            {product.gender}
-          </div>
+            <div>{product.img}</div>
+          </section>
         </Card.Text>
         <Button variant="primary" onClick={() => setValue(`$${value}`)}>
-          Cambiar precio
+          push
         </Button>
       </Card.Body>
     </Card>
